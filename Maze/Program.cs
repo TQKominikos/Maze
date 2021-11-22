@@ -21,6 +21,7 @@ namespace Maze
                     Console.Write(string.Format("{0} ",maze[i, j]));
                 }
                 Console.Write(Environment.NewLine + Environment.NewLine);
+                
             }
         }
     }
