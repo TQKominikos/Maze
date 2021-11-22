@@ -18,9 +18,9 @@ namespace Maze
                 for (int j = 0; j < mazeSize; j++)
                 {
                     maze[i, j] = "x";
-                    Console.Write(string.Format("{0} ",maze[i, j]));
+                    Console.Write(string.Format("{0} ", maze[i, j]));
                 }
-                Console.Write(Environment.NewLine + Environment.NewLine);
+                Console.Write(Environment.NewLine);
             }
         }
     }
